@@ -472,15 +472,17 @@ img {
 }
 .modal-title {
   text-align: center;
+  margin-bottom: 16px;
 }
 
 .modal-label {
+  display: block;
   font-size: 12px;
   color: #8e8f99;
   line-height: 1.16;
   font-weight: 400;
   letter-spacing: 0.04em;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 }
 .modal-label-content {
   position: relative;
@@ -558,6 +560,8 @@ img {
 }
 
 .burger {
+  display: flex;
+  flex-direction: column;
   position: fixed;
   top: 0;
   left: 0;
@@ -572,7 +576,6 @@ img {
 .burger-content {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   height: 100%;
   position: relative;
   padding: 72px 16px;
@@ -595,6 +598,9 @@ img {
   display: flex;
   flex-direction: column;
   margin-bottom: 168px;
+}
+.burger-block {
+  margin-top: auto;
 }
 .burger-menu-list {
   display: flex;
@@ -1306,7 +1312,7 @@ img {
 
   .header-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
   }
 
@@ -1383,7 +1389,7 @@ img {
     color: #404bbf;
   }
   .hero-section {
-    min-width: 1440px;
+    max-width: 1440px;
     padding: 188px 0;
     background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url(../images/dark-bg-desktop.jpg), no-repeat;
@@ -1393,7 +1399,7 @@ img {
 
   @media (min-resolution: 192dpi) {
     .hero-section {
-      min-width: 1440px;
+      max-width: 1440px;
       padding: 188px 0;
       background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         url(../images/dark-bg-desktop@2x.jpg), no-repeat;
