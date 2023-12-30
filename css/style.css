@@ -472,6 +472,19 @@ img {
 }
 .modal-title {
   text-align: center;
+  font-weight: 500;
+  color: #2e2f42;
+  margin-bottom: 16px;
+}
+.modal-form {
+ 
+}
+
+.modal-form-content {
+  margin-bottom: 8px;
+}
+
+.-text-area {
   margin-bottom: 16px;
 }
 
@@ -493,7 +506,6 @@ img {
   border-radius: 4px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   padding-left: 36px;
-  margin-bottom: 8px;
 }
 .modal-icon {
   position: absolute;
@@ -508,7 +520,6 @@ img {
   padding-left: 16px;
   padding-top: 8px;
   opacity: 0.5;
-  margin-bottom: 16px;
 }
 ._checkbox {
   margin-bottom: 24px;
@@ -597,7 +608,6 @@ img {
 .burger-menu {
   display: flex;
   flex-direction: column;
-  margin-bottom: 168px;
 }
 .burger-block {
   margin-top: auto;
@@ -1107,8 +1117,10 @@ img {
   }
   .modal-form {
   }
-  .form-content {
+  .modal-form-content {
+    margin-bottom: 8px;
   }
+
   .modal-label {
     font-size: 12px;
     color: #8e8f99;
@@ -1126,7 +1138,7 @@ img {
     border-radius: 4px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     padding-left: 36px;
-    margin-bottom: 8px;
+
   }
   .modal-icon {
     position: absolute;
@@ -1143,6 +1155,9 @@ img {
     padding-left: 16px;
     padding-top: 8px;
     opacity: 0.5;
+
+  }
+  .text-area {
     margin-bottom: 16px;
   }
   ._checkbox {
@@ -1393,8 +1408,9 @@ img {
     padding: 188px 0;
     background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url(../images/dark-bg-desktop.jpg), no-repeat;
-    background-size: cover;
+    background-size: 1440px;
     background-position: center;
+    margin: 0 auto;
   }
 
   @media (min-resolution: 192dpi) {
@@ -1855,7 +1871,7 @@ img {
     align-items: flex-start;
   }
 
-  .form-content {
+  .modal-form-content {
     margin-bottom: 8px;
   }
 
@@ -1891,6 +1907,10 @@ img {
     outline: transparent;
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .text-area {
+    margin-bottom: 16px;
   }
 
   .modal-label-content-textarea:focus {
@@ -1949,7 +1969,7 @@ img {
   .modal-label-checkmate {
     position: absolute;
     left: 24px;
-    bottom: 104px;
+    bottom: 108px;
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
